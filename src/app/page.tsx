@@ -11,7 +11,6 @@ import TrendingProducts from '@/components/TrendingProducts';
 
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { GrUpdate } from 'react-icons/gr';
 config.autoAddCss = false;
 
 
