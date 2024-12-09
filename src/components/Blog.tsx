@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import React from "react";
 
 const blogPosts = [
@@ -44,9 +44,11 @@ const LeatestBlog: React.FC = () => {
             className="bg-white rounded-md shadow-md p-4 mx-auto w-full max-w-xs"
           >
             {/* Blog Image */}
-            <img
+            <Image
               src={post.imgSrc}
               alt={post.title}
+              width={300}
+              height={300}
               className="h-40 w-full object-cover rounded-md"
             />
             <div className="mt-4">

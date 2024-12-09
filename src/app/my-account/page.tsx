@@ -53,7 +53,7 @@ export default function MyAccount() {
             </form>
   
             <p className="text-center text-gray-600 text-sm mt-6">
-              Don't have an account?{" "}
+              Don&apos;t have an account?
               <Link href="#" className="text-pink-500 hover:underline">
                 Create account
               </Link>
