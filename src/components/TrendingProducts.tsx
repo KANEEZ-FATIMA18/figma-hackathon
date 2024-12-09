@@ -40,7 +40,7 @@ const TrendingProducts = () => {
 
         {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16">
-          {products.map((product, index) => (
+          {products.map((product,index) => (
             <div
               key={index}
               className="bg-white shadow-lg w-[270px] h-[350px] p-4 text-center border border-gray-200 relative"
